@@ -1,3 +1,9 @@
+# What am I using?
+- create-react-app - set up a modern web app by running one command
+- node-sass - library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, Sass
+- react-scroll - react component for animating vertical scrolling
+- react-router-dom - library for routing in react
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
