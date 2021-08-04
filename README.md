@@ -1,3 +1,6 @@
+# What is it?
+Website in which everyone will be able to donate unnecessary things to trusted institutions.
+
 # What am I using?
 - create-react-app - set up a modern web app by running one command
 - node-sass - library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, Sass
