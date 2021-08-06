@@ -12,10 +12,10 @@ const HeaderContent = () => {
                 </h1>
                 <AccentImg/>
                 <ul>
-                    <Link to={"/"}>
+                    <Link to={"/login"}>
                         <li>ODDAJ RZECZY</li>
                     </Link>
-                    <Link to={"/"}>
+                    <Link to={"/login"}>
                         <li>ZORGANIZUJ ZBIÓRKĘ</li>
                     </Link>
                 </ul>

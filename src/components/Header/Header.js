@@ -4,7 +4,7 @@ import HeaderContent from "./HeaderContent";
 
 const Header = () => {
     return (
-        <div>
+        <div id={"start"}>
             <HeaderImg/>
             <HeaderContent/>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
     return (
-        <div>
+        <div id={'form'}>
 
         </div>
     );

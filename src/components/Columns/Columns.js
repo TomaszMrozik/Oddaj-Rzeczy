@@ -2,8 +2,8 @@ import React from 'react';
 
 const Columns = () => {
     return (
-        <div>
-            
+        <div id={'columns'} >
+
         </div>
     );
 };
