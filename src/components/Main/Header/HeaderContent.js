@@ -11,11 +11,11 @@ const HeaderContent = () => {
                 </h1>
                 <AccentImg/>
                 <ul>
-                    <Link to={"/login"}>
+                    <Link to={"/login"} style={{textDecoration: 'none'}}>
                         <li>ODDAJ RZECZY</li>
                     </Link>
-                    <Link to={"/login"}>
-                        <li>ZORGANIZUJ ZBIÓRKĘ</li>
+                    <Link to={"/login"} style={{textDecoration: 'none'}}>
+                        <li className={'organize'}>ZORGANIZUJ ZBIÓRKĘ</li>
                     </Link>
                 </ul>
             </div>

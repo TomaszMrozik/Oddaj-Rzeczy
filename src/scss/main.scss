@@ -3,6 +3,10 @@
 @import "settings/fonts";
 @import "settings/colors";
 
+body {
+  font-family: $font-sans;
+}
+
 @import "elements/nav";
 @import "elements/main/header";
 @import "elements/main/about-us";

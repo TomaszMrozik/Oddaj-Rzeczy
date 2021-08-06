@@ -3,14 +3,13 @@
   align-content: flex-end;
   flex-direction: column;
   height: 95px;
-  align-self: flex-end;
   margin-top: 37px;
   float: right;
 
   .loginMenu {
     display: flex;
     justify-content: flex-end;
-    margin-right: 120px;
+    margin-right: 110px;
      li {
        padding: 9px 10px;
        font-size: 13px;
@@ -28,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 17px;
-    margin-right: 100px;
+    margin-right: 90px;
     .menuLink {
       padding: 9px 20px;
       font-size: 18px;
@@ -37,6 +36,7 @@
     .menuLink:hover {
       border: 0.75px solid $font-color;
       padding: 8px 19px;
+      cursor: pointer;
     }
   }
 }

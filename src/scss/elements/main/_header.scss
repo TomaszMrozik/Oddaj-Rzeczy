@@ -1,19 +1,55 @@
 
 #start {
   display: flex;
-  padding-top: 150px;
-  height: 963px;
+  height: 775px;
 
   .homeHero {
     position: absolute;
     top: 0;
-    left: -483px;
-    height: 963px;
+    left: -420px;
+    height: 775px;
     background: padding-box;
   }
   .title {
     display: flex;
     flex-direction: column;
+    margin-left: 760px;
+    color: $font-color;
+    margin-top: 250px;
+    width: 674px;
+
+    h1 {
+      font-size: 36px;
+    }
+    img {
+      width: 253px;
+      margin: 25px 0 65px 206px;
+
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li{
+        color: $font-color;
+        border: 0.75px solid $font-color;
+        font-weight: 300;
+        font-size: 36px;
+        padding: 13px 93px;
+      }
+      li:hover {
+        box-shadow: -5px 5px 10px;
+
+      }
+      .organize {
+        padding: 13px 51px;
+        margin-left: 44px;
+      }
+      .organize:hover{
+        box-shadow: 5px 5px 10px;
+      }
+
+    }
+
 
   }
 }
