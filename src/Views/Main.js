@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../components/Header/Header';
-import Columns from "../components/Columns/Columns";
-import Steps from "../components/Steps/Steps";
-import AboutUs from "../components/AboutUs/AboutUs";
-import Information from "../components/Information/Information";
-import Form from "../components/Form/Form";
+import Header from '../components/Main/Header/Header';
+import Columns from "../components/Main/Columns/Columns";
+import Steps from "../components/Main/Steps/Steps";
+import AboutUs from "../components/Main/AboutUs/AboutUs";
+import Information from "../components/Main/Information/Information";
+import Form from "../components/Main/Form/Form";
 
 const Main = () => {
     return (

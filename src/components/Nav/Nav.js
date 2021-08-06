@@ -4,7 +4,7 @@ import Menu from "./Menu";
 
 const Nav = () => {
     return (
-        <div>
+        <div className={'nav'}>
             <LoginMenu/>
             <Menu/>
         </div>

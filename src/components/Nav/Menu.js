@@ -1,11 +1,12 @@
 import React from 'react';
 import {Link} from 'react-scroll';
 
+
 const Menu = () => {
     return (
         <div className={'menu'}>
             <Link activeClass="active"
-                  to="start"
+                  to="/start"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
@@ -15,6 +16,7 @@ const Menu = () => {
                   isDynamic={true}
                   ignoreCancelEvents={false}
                   spyThrottle={500}
+                  className={'menuLink'}
             >
                 Start
             </Link>
@@ -29,6 +31,8 @@ const Menu = () => {
                   isDynamic={true}
                   ignoreCancelEvents={false}
                   spyThrottle={500}
+                  className={'menuLink'}
+
             >
                 O co chodzi?
             </Link>
@@ -43,6 +47,8 @@ const Menu = () => {
                   isDynamic={true}
                   ignoreCancelEvents={false}
                   spyThrottle={500}
+                  className={'menuLink'}
+
             >
                 O nas
             </Link>
@@ -57,6 +63,8 @@ const Menu = () => {
                   isDynamic={true}
                   ignoreCancelEvents={false}
                   spyThrottle={500}
+                  className={'menuLink'}
+
             >
                 Fundacja i organizacje
             </Link>
@@ -71,6 +79,8 @@ const Menu = () => {
                   isDynamic={true}
                   ignoreCancelEvents={false}
                   spyThrottle={500}
+                  className={'menuLink'}
+
             >
                 Kontakt
             </Link>

@@ -3,7 +3,7 @@ import Main from "./Views/Main";
 import Login from "./Views/Login";
 import Logout from "./Views/Logout";
 import Register from "./Views/Register";
-import Nav from "./components/Header/Nav";
+import Nav from "./components/Nav/Nav";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 function App() {

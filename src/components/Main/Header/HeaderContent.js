@@ -1,10 +1,9 @@
 import React from 'react';
-import AccentImg from "../Decorations/AccentImg";
+import AccentImg from "../../Decorations/AccentImg";
 import {Link} from "react-router-dom";
 
 const HeaderContent = () => {
     return (
-        <div>
             <div className={'title'}>
                 <h1>
                     Zacznij pomagać!<br/>
@@ -20,7 +19,6 @@ const HeaderContent = () => {
                     </Link>
                 </ul>
             </div>
-        </div>
     );
 };
 

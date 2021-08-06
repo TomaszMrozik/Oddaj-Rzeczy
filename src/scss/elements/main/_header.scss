@@ -1,0 +1,19 @@
+
+#start {
+  display: flex;
+  padding-top: 150px;
+  height: 963px;
+
+  .homeHero {
+    position: absolute;
+    top: 0;
+    left: -483px;
+    height: 963px;
+    background: padding-box;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
