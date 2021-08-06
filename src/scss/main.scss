@@ -2,3 +2,25 @@
 
 @import "settings/fonts";
 @import "settings/colors";
+
+@import "elements/main/header";
+@import "elements/main/about-us";
+@import "elements/main/columns";
+@import "elements/main/form";
+@import "elements/main/information";
+@import "elements/main/steps";
+
+@import "elements/login";
+@import "elements/logout";
+@import "elements/register";
+
+.Login {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.Register {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
