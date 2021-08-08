@@ -1,16 +1,26 @@
 #columns {
-  height: 384px;
+  height: 335px;
   background-image: url("../../../assets/3 Columns Background.png");
+  display: flex;
+  justify-content: space-around;
 
   .column {
+    width: 334px;
+    margin-top: 60px;
     h2 {
-
+      font-size: 83px;
+      color: $secondary-accent-color;
+      font-weight: 300;
     }
     h3 {
-
+      font-size: 16px;
+      margin: 28px 0 28px;
+      color: $font-color;
     }
     p {
-
+      font-size: 14px;
+      color: $font-color;
+      font-weight: 300;
     }
   }
 }
