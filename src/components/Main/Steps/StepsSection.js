@@ -10,7 +10,7 @@ const StepsSection = () => {
             <AccentImg/>
             <Steps/>
             <Link to={"/login"} style={{textDecoration: 'none'}}>
-                <div>ODDAJ RZECZY</div>
+                <div className={'button'}>ODDAJ RZECZY</div>
             </Link>
         </div>
     );

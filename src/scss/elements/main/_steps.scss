@@ -1,21 +1,64 @@
 #stepsSection {
-  margin-top: 55px;
+  margin-top: 50px;
   height: 624px;
   h3 {
     color: $font-color;
     font-size: 36px;
-    
+
   }
 
-  img {
-
+  .accentImg {
+    width: 250px;
+    margin: 22px 0 30px;
   }
 
   .steps {
+    background: $third-section-color;
+    height: 310px;
 
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      margin: 0 auto;
+      width: 60%;
+
+      .oneStep {
+        margin-top: 65px;
+        width: 128px;
+
+        h4 {
+          font-size: 16px;
+          color: $font-color;
+          margin: 8px 0;
+        }
+
+        .decoLine {
+          background: #707070;
+          height: 1px;
+          width: 67px;
+          margin-left: 29.5px;
+        }
+
+        p {
+          font-size: 14px;
+          margin-top: 10px;
+          color: $font-color;
+        }
+      }
+    }
   }
 
-  div {
-
+  .button {
+    color: $font-color;
+    border: 0.75px solid $font-color;
+    font-weight: 300;
+    width: 120px;
+    font-size: 34px;
+    padding: 13px 93px;
+    margin: 35px auto;
+  }
+  .button:hover {
+    box-shadow: 0 5px 10px;
   }
 }
