@@ -21,7 +21,7 @@ const Menu = () => {
                 Start
             </Link>
             <Link activeClass="active"
-                  to="columns"
+                  to="steps"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
