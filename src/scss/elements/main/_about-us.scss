@@ -1,0 +1,37 @@
+#aboutUs {
+  display: flex;
+  height: 780px;
+  width: 100vw;
+  justify-content: space-between;
+  background: $third-section-color;
+
+  .peopleImg {
+    height: 780px;
+    position: absolute;
+    top: 1784px;
+    left: 800px;
+    background: padding-box;
+
+  }
+  .aboutUsInformation {
+    margin-top: 130px;
+
+    h3 {
+      font-size: 36px;
+
+    }
+
+    .accentImg {
+      width: 250px;
+      margin: 26px 0 55px;
+    }
+
+    p {
+
+    }
+
+    .signature {
+
+    }
+  }
+}
