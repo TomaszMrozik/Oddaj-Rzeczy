@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 const StepsSection = () => {
     return (
         <div id={'stepsSection'}>
+
             <h3>Wystarczą 4 proste kroki</h3>
             <AccentImg/>
             <Steps/>

@@ -21,11 +21,11 @@ const Menu = () => {
                 Start
             </Link>
             <Link activeClass="active"
-                  to="steps"
+                  to="stepsSection"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
-                  offset={50}
+                  offset={-30}
                   duration={300}
                   delay={0}
                   isDynamic={true}
@@ -41,7 +41,7 @@ const Menu = () => {
                   spy={true}
                   smooth={true}
                   hashSpy={true}
-                  offset={50}
+                  offset={0}
                   duration={400}
                   delay={0}
                   isDynamic={true}

@@ -5,6 +5,8 @@
 
 body {
   font-family: $font-sans;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 @import "elements/nav";
