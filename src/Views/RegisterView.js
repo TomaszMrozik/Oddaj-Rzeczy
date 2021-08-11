@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Register = () => {
+const RegisterView = () => {
     return (
         <div className={'Register'}>
             
@@ -8,4 +8,4 @@ const Register = () => {
     );
 };
 
-export default Register;
+export default RegisterView;

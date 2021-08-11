@@ -1,8 +1,8 @@
 import './App.css';
 import Main from "./Views/Main";
-import Login from "./Views/Login";
-import Logout from "./Views/Logout";
-import Register from "./Views/Register";
+import LoginView from "./Views/LoginView";
+import LogoutView from "./Views/LogoutView";
+import RegisterView from "./Views/RegisterView";
 import Nav from "./components/Nav/Nav";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
@@ -13,9 +13,9 @@ function App() {
             <Nav/>
             <Switch>
                 <Route path='/' exact component={Main}/>
-                <Route path='/login' component={Login}/>
-                <Route path='/logout' component={Logout}/>
-                <Route path='/register' component={Register}/>
+                <Route path='/login' component={LoginView}/>
+                <Route path='/logout' component={LogoutView}/>
+                <Route path='/register' component={RegisterView}/>
             </Switch>
         </div>
       </Router>
