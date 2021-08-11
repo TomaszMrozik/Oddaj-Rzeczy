@@ -1,0 +1,128 @@
+#form {
+  z-index: 1;
+  height: 840px;
+  background: #FFFFFFC9;
+  overflow-y: hidden;
+  width: 100%;
+
+  .backgroundImg{
+    z-index: 0;
+    height: 900px;
+    opacity: 0.2;
+  }
+
+  .contactForm {
+    z-index: 10;
+    position: absolute;
+    top: 3450px;
+    left: 950px;
+
+
+    h3 {
+      font-size: 34px;
+      color: $font-color;
+    }
+
+    .accentImg {
+      width: 250px;
+      margin: 23px 0 67px;
+    }
+
+    form {
+
+      label {
+        font-size: 14px;
+        font-weight: 600;
+        color: $font-color;
+        margin-bottom: 10px;
+      }
+
+      input {
+        color: #3C3C3C26;
+        font-size: 16px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-right: 10px;
+        border-bottom: 1px solid #707070;
+        background: none;
+
+      }
+
+      .name-email {
+        display: flex;
+
+        .oneInput {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        input {
+          width: 275px;
+        }
+
+      }
+
+      .message {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        label {
+          margin-top: 37px;
+        }
+        textarea {
+          width: 560px;
+          height: 80px;
+          resize: none;
+          color: #3C3C3C26;
+          font-size: 16px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          margin-right: 10px;
+          border-bottom: 1px solid #707070;
+          background: none;
+        }
+      }
+
+      .submit {
+        border: 0.75px solid $font-color;
+        width: 150px;
+        font-size: 18px;
+        height: 50px;
+        font-weight: 300;
+        margin-top: 40px;
+        margin-left: 410px;
+        color: $font-color;
+      }
+    }
+  }
+  .footer {
+    position: absolute;
+    display: flex;
+    top: 4065px;
+    left: 730px;
+    z-index: 100;
+    width: 45%;
+    justify-content: space-between;
+
+    p {
+      font-size: 16px;
+      color: $font-color;
+    }
+
+    .socialmedia {
+
+      a {
+
+        img {
+          margin-right: 20px;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

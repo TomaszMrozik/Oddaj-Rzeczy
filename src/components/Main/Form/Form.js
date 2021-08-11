@@ -14,18 +14,18 @@ const Form = () => {
                     <div className={'name-email'}>
                         <div className={'oneInput'}>
                             <label>Wpisz swoje imię</label>
-                            <input/>
+                            <input value={'Krzysztof'}/>
                         </div>
                         <div className={'oneInput'}>
                             <label>Wpisz swój email</label>
-                            <input/>
+                            <input value={'abc@xyz.pl'}/>
                         </div>
                     </div>
                     <div className={'message'}>
                         <label>Wpisz swoją wiadomość</label>
-                        <input/>
+                        <textarea rows={4} value={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'}/>
                     </div>
-                    <input type={'submit'} value="Wyślij"/>
+                    <input type={'submit'} value="Wyślij" className={'submit'}/>
                 </form>
             </div>
             <Footer/>
