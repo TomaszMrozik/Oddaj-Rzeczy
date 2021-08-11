@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const Login = () => {
     return (
-        <div>
+        <div className={"login"}>
             <h1>Zaloguj się</h1>
             <AccentImg/>
             <form>
@@ -18,8 +18,8 @@ const Login = () => {
                 </div>
             </form>
             <div className={'options'}>
-                <Link to={'/register'} style={{textDecoration: 'none'}}>Załóż konto</Link>
-                <Link to={'/login'} style={{textDecoration: 'none'}}>Zaloguj się</Link>
+                <Link to={'/register'} className={'link'}>Załóż konto</Link>
+                <Link to={'/login'} className={'link'}>Zaloguj się</Link>
             </div>
         </div>
     );
