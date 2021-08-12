@@ -1,0 +1,72 @@
+.register {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 40px;
+    color: $font-color;
+  }
+  .accentImg {
+    width: 253px;
+    margin: 25px 0 40px;
+  }
+  .register-form {
+    width: 384px;
+    height: 328px;
+    background: $third-section-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .register-input {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      label {
+        font-size: 16px;
+        font-weight: 600;
+        color: $font-color;
+        margin-bottom: 15px;
+      }
+
+      input {
+        background: none;
+        border: none;
+        border-bottom: 0.75px solid #707070;
+        width: 250px;
+      }
+    }
+    .register-input:nth-child(2) {
+      margin: 32px 0;
+    }
+  }
+  .buttons {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    .link {
+      text-decoration: none;
+      color: $font-color;
+      width: 117px;
+      height: 50px;
+      border: 1px solid $font-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .link:hover{
+      box-shadow: 5px 5px 10px;
+    }
+    .link:hover:nth-child(1) {
+      box-shadow: -5px 5px 10px;
+    }
+  }
+}
