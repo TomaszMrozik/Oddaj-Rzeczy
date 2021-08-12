@@ -1,10 +1,9 @@
 import React from 'react';
+import Logout from "../components/Logout/Logout";
 
 const LogoutView = () => {
     return (
-        <div className={'LogoutView'}>
-
-        </div>
+        <Logout/>
     );
 };
 
