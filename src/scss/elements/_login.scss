@@ -77,10 +77,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-    .link:hover {
       border: 0.75px solid $font-color;
 
+    }
+    .link:hover {
+      box-shadow: 5px 5px 10px;
+    }
+    .link:nth-child(1):hover {
+      box-shadow: -5px 5px 10px;
     }
   }
 }
