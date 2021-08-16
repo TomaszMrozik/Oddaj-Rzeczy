@@ -25,10 +25,28 @@
 
     .accentImg {
       width: 250px;
-      margin: 23px 0 67px;
+      margin: 23px 0 47px;
+    }
+
+    #message-sent {
+      color: green;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 25px;
+      margin-bottom: 50px;
+    }
+
+    .hidden {
+      display: none;
     }
 
     form {
+
+      .error {
+        color: red;
+        font-weight: 600;
+        margin-top: 5px;
+      }
 
       label {
         font-size: 14px;
@@ -38,7 +56,6 @@
       }
 
       input {
-        color: #3C3C3C26;
         font-size: 16px;
         border-top: none;
         border-left: none;
@@ -46,6 +63,14 @@
         margin-right: 10px;
         border-bottom: 1px solid #707070;
         background: none;
+
+      }
+
+      input::placeholder {
+        color: #3C3C3C26;
+      }
+
+      input:focus {
 
       }
 
@@ -76,7 +101,6 @@
           width: 560px;
           height: 80px;
           resize: none;
-          color: #3C3C3C26;
           font-size: 16px;
           border-top: none;
           border-left: none;
@@ -84,6 +108,9 @@
           margin-right: 10px;
           border-bottom: 1px solid #707070;
           background: none;
+        }
+        textarea::placeholder {
+          color: #3C3C3C26;
         }
       }
 

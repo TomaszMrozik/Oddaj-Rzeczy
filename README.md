@@ -6,6 +6,8 @@ Website in which everyone will be able to donate unnecessary things to trusted i
 - node-sass - library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, Sass
 - react-scroll - react component for animating vertical scrolling
 - react-router-dom - library for routing in react
+- formik - small library that helps you with getting values in and out of form state, validation and error messages, handling form submission
+- axios - promise based HTTP client for the browser and node.js
 
 # Getting Started with Create React App
 
