@@ -44,7 +44,11 @@ const Form = () => {
             email: '',
             message: '',
         },
+
+        //validation
         validate,
+
+        // What is going to happen after submit
         onSubmit: values => {
 
             Axios.post('https://fer-api.coderslab.pl/v1/portfolio/contact', {
@@ -52,11 +56,16 @@ const Form = () => {
                     email: values.email,
                     message: values.message
                 }).then(resp => {
+                values.name = '';
+                values.email = '';
+                values.message = '';
                     console.log(resp.data)
+
             })
 
-            alert(JSON.stringify(values, null, 2));
+            // alert(JSON.stringify(values, null, 2));
             document.getElementById('message-sent').classList.remove('hidden');
+
         },
     });
 
