@@ -1,21 +1,22 @@
 #form {
   z-index: 1;
-  height: 840px;
   background: #FFFFFFC9;
   overflow-y: hidden;
   width: 100%;
 
   .backgroundImg{
     z-index: 0;
-    height: 900px;
+    height: 800px;
     opacity: 0.2;
+    position: absolute;
+    left: -200px;
   }
 
   .contactForm {
     z-index: 10;
     position: absolute;
     top: 3450px;
-    left: 950px;
+    left: 750px;
 
 
     h3 {
@@ -132,8 +133,8 @@
   .footer {
     position: absolute;
     display: flex;
-    top: 4065px;
-    left: 730px;
+    top: 4000px;
+    left: 600px;
     z-index: 100;
     width: 45%;
     justify-content: space-between;
